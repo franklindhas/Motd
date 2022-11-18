@@ -1,0 +1,6 @@
+---
+- name: setup new motd
+  hosts: all
+  roles:
+    - motd
+  become: true
